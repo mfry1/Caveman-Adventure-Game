@@ -1,0 +1,47 @@
+Enemies: 
+- Mammoth 	(High health, medium attack, low speed)		(30, 20, 10)
+	- High food, located in river 
+- Tiger 	(Low health, medium attack, high speed)		(10, 20, 30)
+	- Low food, located in forest
+- Bear 		(medium health, high attack, low speed) 	(20, 30, 10)
+	- Med food, located in cave 
+
+Caveman 	(medium health, low attack, medium speed) 	(20, 10, 20)
+- Club raises attack to medium 					(20, 20, 20)
+- Spear raises attack to high 					(20, 30, 20)
+
+Combat Sequence 
+- Caveman attack first 
+- Roll attacker attack die (1 to atkStr) (Atk may be modified by hunger level)
+- Roll defender speed die (1 to spdPts)
+- If speed roll >= attack roll, no damage dealt
+- If speed roll < attack roll, damage dealt
+- Damage is equal to the attack roll or damage is equal a d10 roll 
+
+- If opponent is still alive, switch rolls 
+
+- When one opponent is dead
+	- Caveman is dead, goto end game screen 
+	- Opponent is dead give cavemen amount of food 
+
+Example) Combat Screen 
+*******************************************************************
+FIGHTING THE MAMMOTH 
+
+CAVEMAN 	MAMMOTH 
+ATTACK: 10	ATTACK: 20
+SPEED : 20	SPEED : 10
+HEALTH: 10/20	HEALTH: 23/30
+
+You attacked the mammoth. Your atttack did 7 damage. 
+
+The mammoth charged at you. You were able to dodge it. 
+
+You attacked the mammoth. The mammoth was able to dodge it. 
+
+The mammoth charged at you. It's attack did 10 damage. 
+
+You attacked the mammoth. Your attack did 23 damage. 
+
+You defeated the mammoth. You collected 23 pounds of food from it. 
+*******************************************************************

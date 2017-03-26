@@ -1,0 +1,19 @@
+Items: 
+
+Bearskin bag
+- Holds items
+- Can only hold 30 pounds of food 
+
+Food (Berries, meat)
+- Decreases hunger
+- Must be collected to complete game
+
+Fire 
+- Used to clear forest obstacle 
+
+Club
+- Increases attack strength to medium lvl
+
+Spear 
+- Increases attack strength to high lvl 
+

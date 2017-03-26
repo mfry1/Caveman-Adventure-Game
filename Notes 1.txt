@@ -1,0 +1,50 @@
+Goal: Survive the day and collect food for your family 
+	Collect enough food for you and your family before sunset. 
+
+Time Limit: You start at dawn (6am) and end at sunset (8pm). Each real sec = 1 game min 
+
+Hunger Limit: 10/10 meter. Don't let the meter hit 10. Food reduces the meter. Start at 5/10. Increases by 1 every hour.  
+
+Food meter: Goal is to get 25 food back to the home cave  
+
+Rooms : Cave, forest, field, river (mountain) 
+
+
+Example) Intro text 
+*********************************************************************
+
+You are a caveman living a simple prehistoric life. Each day you wake up with the goal of surviving and collecting enough food for your family. 
+
+You have until sunset to bring 25 pounds of food back to your home cave. Some food can be easily picked but some will require hunting viscious animals. Don't forget hunting is hard work and you'll need to feed yourself through the day as well or risk becoming weak in combat or even worse starving to death! Keep your hunger meter at 5 or below to stay in peak condition. 
+
+Good luck prehistoric man. It is dawn so grab your bearskin bag and get going. 
+*******************************************************************
+
+Example) HUD & room menu
+*********************************************************************
+Time Until Sunset: 8hrs 31min
+Health 		 : 9/10 
+Hunger level 	 : 5/10
+Food on Hand 	 : 10/25 
+
+#  F  #  #		F = Forest	C = Cave 
+R  &  #  #		R = River	H = Home 
+#  P  M  C		M = Mountain	& = You 
+#  H  #  C	
+
+You are in a forest. 
+What do you do? (1) Move (2) Look Around (3) Check Bag (4) Help 
+********************************************************************
+
+
+Example) Movement menus (Forest 2 POV)
+********************************************************************
+* input = Move * 
+
+Where to? (1) Up (3) Down (4) Left (5) Don't move 
+
+* input = Up *  
+
+You're at the river. 
+What do you do? (1) Move (2) Look Around (3) Check Bag (4) Help 
+********************************************************************

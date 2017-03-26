@@ -1,0 +1,28 @@
+Example) HUD & room menu
+*********************************************************************
+Time Until Sunset: 8hrs 31min
+Health 		 : 9/10 
+Hunger level 	 : 5/10
+Food on Hand 	 : 10/25 
+
+#  F  #  #		F = Forest	C = Cave 
+R  &  #  #		R = River	H = Home 
+#  P  M  C		M = Mountain	& = You 
+#  H  #  C	
+
+You are in a forest. 
+What do you do? (1) Move (2) Look Around (3) Check Bag (4) Help 
+********************************************************************
+
+
+Example) Movement menus (Forest 2 POV)
+********************************************************************
+* input = Move * 
+
+Where to? (1) Up - River (3) Down - Forest (4) Left - Forest (5) Don't move 
+
+* input = Up - River *  
+
+You're at the river. 
+What do you do? (1) Move (2) Look Around (3) Check Bag (4) Help 
+********************************************************************
